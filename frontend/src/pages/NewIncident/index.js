@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom'
 import './styles.css'
 import { FiArrowLeft } from 'react-icons/fi'
 
@@ -7,6 +7,8 @@ import logoImg from '../../assets/logo.svg';
 
 
 export default function NewIncident (){
+
+    
     return (
         <div className="new-incident-container">
             <div className="content">
